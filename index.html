@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <div class="score-container">Score: <span id="score">0</span></div>
+            <div class="timer-container">Time: <span id="timer">5:00</span></div>
+        </div>
+        <div id="map"></div>
+        <div class="input-container">
+            <input type="text" id="countryInput" placeholder="Enter country name...">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
